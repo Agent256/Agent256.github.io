@@ -2,6 +2,11 @@
   color: #1f1f1f;
 }
 
+gitlogo {
+  top: 2.5px;
+  background-image:url(./images/gitlight.png);
+}
+
 .topnav {
   font-family: 'Poppins', sans-serif;
   background: #121212;
@@ -21,6 +26,15 @@
   font-size: 17px;
 }
 
+.topnav a.git {
+  background-image: url("./images/gitlight.png");
+  background-size: 60px, 60px;
+  width: 40px;
+  height: 40px;
+  color: 0000ffff;
+  
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
@@ -36,13 +50,12 @@
 body {background-color: #1f1f1f;}
 
 h1 {
-  position: fixed;
-  left: 44%;
-  top: 8%;
-  font-family: 'Poppins', sans-serif;
+  margin-top: 60px;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   color: #dcdcdc;
+  font-size: 4vw;
 }
 
 
@@ -55,31 +68,41 @@ iframe{
   height: 20vw;
 }
 
- .buttons{
-            position: fixed;
-            top: 26%;
-            transition: 0.3s ease;
-            width: 30vw;
-            height: 70px;
-            margin: 10px;
-            outline: none;
-            border: 0px solid transparent;
-            border-radius: 20px;
-            color: #ffffff;
-            font-size: 18px;
-            font-family: 'Urbanist', sans-serif;
-            cursor: pointer;
-        }
-        #discord{
-            background-image: linear-gradient(-30deg, #4e5d94, #7289da);
-        }
-        #discord:hover{
-            box-shadow: 0px 0px 12px #7289da;
-        }
-        #github{
-            /* background-image: linear-gradient(-30deg, #22272E, #2D333B); */
-            background-image: linear-gradient(-30deg, #0D1117, #161B22);    
-        }
-        #github:hover{
-            box-shadow: 0px 0px 12px #0D1117;
-        }
+.featured {
+  top: 60px;
+  box-shadow: 4px 12px 24px #0D1117;
+  transition: 0.1s ease;
+  position: relative;
+  right: 25vw;
+  margin: auto;
+  border-radius: 10px;
+   width: 40vw;
+  height:20vw;
+  background-color: #555;
+  background-size: contain;
+  background-image: url("https://home.notjosh256.repl.co/images/featured.png");
+}
+
+.featuredjava {
+  top: 85px;
+  box-shadow: 4px 12px 24px #0D1117;
+  transition: 0.1s ease;
+  position: relative;
+  right: 25vw;
+  margin: auto;
+  border-radius: 10px;
+   width: 40vw;
+  height:20vw;
+  background-color: #555;
+  background-size: contain;
+  background-image: url("https://home.notjosh256.repl.co/images/featuredjava.png");
+}
+
+.index {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0%;
+  background-color: #478bff;
+}
+
