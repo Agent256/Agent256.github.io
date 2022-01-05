@@ -58,6 +58,14 @@ h1 {
   font-size: 4vw;
 }
 
+p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #dcdcdc;
+  font-size: 1vw;
+  margin: 4vw;
+}
+
 
 div {
   text-align:center;
@@ -68,8 +76,11 @@ iframe{
   height: 20vw;
 }
 
+#featured {display:inline-block;margin-right:10px;} 
+#norman {display:inline-block;} 
+
 .featured {
-  top: 60px;
+  top: 0px;
   box-shadow: 4px 12px 24px #0D1117;
   transition: 0.1s ease;
   position: relative;
@@ -83,8 +94,23 @@ iframe{
   background-image: url("https://home.notjosh256.repl.co/images/featured.png");
 }
 
+.norman {
+  top: 0px;
+  box-shadow: 4px 12px 24px #0D1117;
+  transition: 0.1s ease;
+  position: fixed;
+  right: 25vw;
+  margin: auto;
+  border-radius: 10px;
+   width: 40vw;
+  height:20vw;
+  background-color: #555;
+  background-size: contain;
+  background-image: url("https://home.notjosh256.repl.co/images/featured.png");
+}
+
 .featuredjava {
-  top: 85px;
+  top: 15px;
   box-shadow: 4px 12px 24px #0D1117;
   transition: 0.1s ease;
   position: relative;
